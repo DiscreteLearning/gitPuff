@@ -42,6 +42,7 @@ public class Base {
 			driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);    // passing those capabilities to Appium server
 	    
 			Thread.sleep(2000);
+		//changes done
 	   
 	    return driver;
 	 
